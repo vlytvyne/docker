@@ -1,0 +1,8 @@
+#docker run -it --name deb debian
+
+#To restart terminal use following:
+#docker start deb && docker exec -it deb rbash
+
+apt-get update
+apt-get install gcc
+apt-get install git
