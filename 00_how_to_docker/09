@@ -1,4 +1,4 @@
-#docker run -it --name deb debian
+#docker run -it debian
 
 #To restart terminal use following:
 #docker start deb && docker exec -it deb rbash
