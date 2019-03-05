@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls videos/ | cut -d '.' -f1
